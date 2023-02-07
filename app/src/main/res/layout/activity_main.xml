@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/accelmov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İvme Ölçer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973" />
+
+    <TextView
+        android:id="@+id/deger_one"
+        android:layout_width="36dp"
+        android:layout_height="23dp"
+        android:text="5"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <EditText
+        android:id="@+id/resim_saniye"
+        android:layout_width="241dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:ems="10"
+        android:hint="Resim Saniye Oranı"
+        android:textStyle="italic"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="146dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:text="Ivme Olcer Fark"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="170dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="96dp"
+        android:text="Saniye Fark"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <!--<Switch
+        android:id="@+id/switch1"
+        android:layout_width="164dp"
+        android:layout_height="44dp"
+        android:text="Kaydetmeyi Açıp Kapayın"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.809"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.459" /> -->
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="401dp"
+        android:layout_height="85dp"
+        android:gravity="center_horizontal"
+        android:text="Baglanti Ayarlari"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.518"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="113dp"
+        android:layout_height="42dp"
+        android:text="Kaydedin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.373" />
+
+    <TextView
+        android:id="@+id/deger_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.231" />
+
+    <EditText
+        android:id="@+id/ivme_olcer_uyari"
+        android:layout_width="241dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:ems="10"
+        android:hint="Ivme Olcer Oranı"
+        android:inputType="numberDecimal"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/userNametextview"
+        android:layout_width="112dp"
+        android:layout_height="35dp"
+        android:text="User Name"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.626" />
+
+    <TextView
+        android:id="@+id/pasTextview"
+        android:layout_width="110dp"
+        android:layout_height="38dp"
+        android:text="Password"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722" />
+
+    <TextView
+        android:id="@+id/keytext"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:text="Key"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.815" />
+
+    <TextView
+        android:id="@+id/conStat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connection Status:"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.746"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.602" />
+
+    <EditText
+        android:id="@+id/key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Key"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.731"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811" />
+
+    <EditText
+        android:id="@+id/password_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.746"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706" />
+
+    <Button
+        android:id="@+id/disconnectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disconnect"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973" />
+
+    <Switch
+        android:id="@+id/camcontrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Camera Control"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288"
+        tools:checked="true" />
+
+    <Switch
+        android:id="@+id/accelcontrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Accelerator Control"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288"
+        tools:checked="true" />
+
+    <TextView
+        android:id="@+id/connectNotConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connection Status"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884" />
+
+    <TextView
+        android:id="@+id/cameramov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kamera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.744" />
+
+    <Button
+        android:id="@+id/loadBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
